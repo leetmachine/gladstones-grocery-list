@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gladstone's Grocery List</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div class="App">
+        <header>
+            <h1>GLADSTONE'S</h1>
+            <h2>Grocery List</h2>
+            <form>
+                <input type="text" placeholder="Add a Grocery Item"/>
+                <button type="submit" value="submit">Submit</button>
+            </form>
+        </header>
+        <div class="main">
+            <div>
+                <h2>Groceries:</h2>
+                <label class="toggle">Show needed: <input type="checkbox" /></label>
+            </div>
+            <table class="counter">
+                <tbody>
+                    <tr>
+                        <td>Total:</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Remaining:</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul>
+                <li>
+                    <label>
+                        got it!<input type="checkbox"/> 
+                    </label>
+                    <span>Milk</span>
+                    <button class="remove">remove</button>
+                </li>
+                <li>
+                    <label>
+                        got it!<input type="checkbox"/> 
+                    </label>
+                    <span>Eggs</span>
+                    <button class="remove">remove</button>
+                </li>
+                <li>
+                    <label>
+                        got it!<input type="checkbox"/> 
+                    </label>
+                    <span>Cheese</span>
+                    <button class="remove">remove</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
